@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o rename .c .s *.c
+gcc -c $CFILE -o C | rename .c .o *.c
