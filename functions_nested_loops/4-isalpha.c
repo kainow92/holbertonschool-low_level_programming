@@ -10,11 +10,11 @@ int _isalpha(int c)
 {
 	int h;
 
-	if (c >= 96 && c <= 123)
+	if (c >= 'a' && c <= 'z')
 	{
 	h = 1;
 	}
-	if (c >= 64 && c <= 91)
+	if (c >= 'A' && c <= 'Z')
 	{
 	h = 1;
 	}
