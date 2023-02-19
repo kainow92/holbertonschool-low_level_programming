@@ -14,7 +14,7 @@ int _isalpha(int c)
 	{
 	h = 1;
 	}
-	if (c >= 65 && c <= 90)
+	if (c >= 64 && c <= 91)
 	{
 	h = 1;
 	}
