@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar - prints _putchar
- * @c: char
+ * main - prints _putchar
  *
  * Return: always 0
  */
-int _putchar(char c)
+int main(void)
 {
 	int i;
 	char frase[] = "_putchar";
