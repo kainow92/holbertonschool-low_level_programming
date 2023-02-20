@@ -10,7 +10,18 @@ int print_last_digit(int n)
 {
 	int j;
 
+	if (n > 0)
+	{
 	j = n % 10;
+	}
+	else if (n < 0)
+	{
+	j = ((n * -1) % 10);
+	}
+	else
+	{
+	j = n;
+	}
 
 	return (j);
 }
