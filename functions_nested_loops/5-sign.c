@@ -11,6 +11,7 @@ int print_sign(int n)
 	int h;
 	int j;
 
+	h = 0;
 	if (n > 0)
 	{
 	h = 1;
