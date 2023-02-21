@@ -16,14 +16,14 @@ void jack_bauer(void)
 	{
 	if (h < 10)
 	{
-	h = h + '0';
+	h = h + 0;
 	}
 	h++;
 	while (m < 60)
 	{
 	if (m < 10)
 	{
-	m = m + '0';
+	m = m + 0;
 	}
 	m++;
 	}
