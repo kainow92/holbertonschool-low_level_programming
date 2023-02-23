@@ -1,5 +1,5 @@
-SRC = .c
-CC = gcc -c -f
+SRC = ../makefiles
+CC = gcc - c
 TARGET = school
 all : main.c m.h school.c
 	$(CC) $(SRC) -o $(TARGET)
