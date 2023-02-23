@@ -3,9 +3,9 @@ SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 CC = gcc
 RM = rm -f
-.PHONY: clean
-.PHONY: oclean
-.PHONY: fclean
+.PHONY : clean
+.PHONY : oclean
+.PHONY : fclean
 all : $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
 clean : 
