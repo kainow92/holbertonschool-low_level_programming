@@ -1,4 +1,4 @@
-SRC = ../makefiles
+SRC = main.c m.h school.h
 CC = gcc - c
 TARGET = school
 all : main.c m.h school.c
