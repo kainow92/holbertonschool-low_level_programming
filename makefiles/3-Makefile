@@ -4,15 +4,15 @@ OBJ = $(SRC:.c=.o)
 CC = gcc
 RM = rm -f
 
-all : $(OBJ)
+all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
-.PHONY : clean
-clean : 
+.PHONY: clean
+clean: 
 	$(RM) *.~ $(NAME)
-.PHONY : oclean
-oclean :
+.PHONY: oclean
+oclean:
 	$(RM) *.~ $(OBJ)
-.PHONY : fclean
-fclean : clean oclean
+.PHONY: fclean
+fclean:clean oclean
 
-re : oclean all
+re:oclean all
