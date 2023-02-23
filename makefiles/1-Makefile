@@ -1,5 +1,5 @@
 SRC = .c
-CC = gcc -c
+CC = gcc -c -f
 TARGET = school
-all : main.c school.c m.h
+all : main.c m.h school.c
 	$(CC) $(SRC) -o $(TARGET)
