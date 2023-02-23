@@ -3,14 +3,16 @@ SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 CC = gcc
 RM = rm
-.PHONY : clean
-.PHONY : oclean
-.PHONY : fclean
+
 all : $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
+.PHONY : clean
 clean : 
 	$(RM) *.~ $(NAME)
+.PHONY : oclean
 oclean :
 	$(RM) *.o
+.PHONY : fclean
 fclean : clean oclean
+
 re : fclean all
