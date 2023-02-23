@@ -3,4 +3,4 @@ SRC = .c
 OBJ = .o
 CC = gcc
 all : $(SRC)
-	$(CC) $(OBJ) -o $(NAME)
+	$(CC) $(SRC) $(OBJ) -o $(NAME)
