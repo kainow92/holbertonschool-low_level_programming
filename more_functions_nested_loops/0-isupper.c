@@ -14,7 +14,10 @@ int _isupper(int c)
 	{
 	n = 1;
 	}
-	else n = 0;
+	else
+	{
+	n = 0;
+	}
 	return (n);
 }
 
