@@ -10,7 +10,7 @@
 
 int _strlen(char *s)
 {
-	*s[] = sizeof(*s) / sizeof(*s[0]);
+	size_t strlen(*s);
 
-	return (int);
+	return (s);
 }
