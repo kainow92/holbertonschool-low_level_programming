@@ -4,7 +4,7 @@
  * _strlen - length
  * @s: input
  *
- * Return: always int
+ * Return: count
  *
  */
 
@@ -12,9 +12,11 @@ int _strlen(char *s)
 {
 	int cnt = 0;
 
-	while (cnt = !('\0'); cnt++)
+	while (*s != '\0')
 	{
-	char [s]
+	cnt++;
+	s++;
 	}
-	return (int);
-}	
+
+	return (count);
+}
