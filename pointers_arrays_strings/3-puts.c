@@ -4,14 +4,13 @@
  * _puts - puts
  * @str: input
  *
- * Return: always 0
  */
 
 void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-	int puts(*str);
+	int puts(const char *str);
 	str++;
 	}
 }
