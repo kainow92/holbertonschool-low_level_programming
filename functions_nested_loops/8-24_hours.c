@@ -1,14 +1,19 @@
 #include "main.h"
+
 /**
- * jack_bauer - prints hours
- * 
- * Return: always 0
+ * jack bauer - 24
+ *
+ * Return: Always 0
  *
  */
 
 void jack_bauer(void)
 {
-	int h1outer, h2, m1, m2;
+
+	int h1outer;
+	int h2;
+	int m1;
+	int m2;
 
 	for (h1outer = 0; h1outer < 3; h1outer++)
 	{
