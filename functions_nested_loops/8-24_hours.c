@@ -1,35 +1,35 @@
 #include "main.h"
-
 /**
- * jack_bauer - prints all minutes
- *
+ * jack_bauer - prints hours
+ * 
  * Return: always 0
+ *
  */
+
 void jack_bauer(void)
 {
-	int h;
-	int m;
+	int h1outer, h2, m1, m2;
 
-	h = 0;
-	m = 0;
-	while (h < 24)
+	for (h1outer = 0; h1outer < 3; h1outer++)
 	{
-	if (h < 10)
+	for (h2 = 0; h2 < 10; h2++)
 	{
-	h = h + 0;
+	if ((h2 == 4) && (h1outer == 2))
+	{
+	break;
 	}
-	h++;
-	while (m < 60)
+	for (m1 = 0; m1 < 6; m1++)
 	{
-	if (m < 10)
+	for (m2 = 0; m2 < 10; m2++)
 	{
-	m = m + 0;
-	}
-	m++;
-	}
-	_putchar(h);
+	_putchar(h1outer + '0');
+	_putchar(h2 + '0');
 	_putchar(':');
-	_putchar(m);
-	}
+	_putchar(m1 + '0');
+	_putchar(m2 + '0');
 	_putchar('\n');
+	}
+	}
+	}
+	}
 }
